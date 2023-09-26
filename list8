@@ -1,0 +1,25 @@
+# Python function that takes two lists and returns True if they have at least one common member.
+def have_common_member(list1, list2):
+    for item in list1:
+        if item in list2:
+            return True
+        else:
+            return False
+
+list1 = [1, 2, 3, 4, 5]
+list2 = [1, 2, 3, 4, 5]
+result = have_common_member(list1, list2)
+print(result)  
+
+#Write a Python program to remove a specified column from a given nested list.
+def remove_column(nested_list, column_index):
+        for row in nested_list:
+            if len(row) > column_index:
+                del row[column_index]
+
+original_list = [[1, 2, 3], [2, 4, 5], [1, 1, 1]]
+column_to_remove = 1  
+remove_column(original_list, column_to_remove)
+print("After removing {} column:".format(column_to_remove))
+for row in original_list:
+     print(row)

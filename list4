@@ -1,0 +1,4 @@
+# python program to delete element of given index in list
+list1=["siva","naga","raju"]
+list1.remove("naga")
+print(list1)

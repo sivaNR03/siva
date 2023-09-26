@@ -1,0 +1,13 @@
+#delete given elemet from the list
+
+list1 = [1,2,3,4,5,6]
+list2 = ["this" "is" "a beautiful world"]
+print(list1)
+print(list2)
+
+del list1[2:3]
+print(list1)
+
+del list2[3:5]
+print(list2)
+

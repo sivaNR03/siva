@@ -2,9 +2,9 @@
 def check(s1, s2):
      
     
-    silence=input()
-    lisen=input()
-    if(sorted(silence) == sorted(lisen)):
+    s1 =input()
+    s2 =input()
+    if(sorted(s1) == sorted(s2)):
         print("The strings are anagrams.")
     else:
         print("The strings arent anagrams.")      

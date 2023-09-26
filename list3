@@ -1,0 +1,16 @@
+#python program to print even and odd numbers seperatly in list
+
+list1=[20,30,40,50,60,7,4,3]
+listeven=[]
+listodd=[]
+for num in list1:
+    if num % 2 ==0:
+        listeven.append(num)
+    else:
+        listodd.append(num)
+print(list1)
+print(listeven)
+print(listodd)
+            
+
+

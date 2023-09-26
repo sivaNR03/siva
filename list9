@@ -1,0 +1,6 @@
+#Write a Python program to convert a list of multiple integers into a single integer
+
+lst= [22, 33, 55]
+print("Original List: ",lst)
+n = int("".join(map(str, lst)))
+print("Single Integer: ",n)
