@@ -1,0 +1,5 @@
+# Write a Python program to get the specified element from the last element of a tuple.
+tup=("s","i","v","a","n","a","g","a","r","a","j","u")
+print(tup)
+i=tup[11]
+print(i)

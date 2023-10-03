@@ -1,0 +1,49 @@
+# 1.Write a Python program to add member(s) to a set.
+st={'i','v','a'}
+st.add('s')
+print(st)
+
+
+st={"ram","ravi","raju"}
+st.add("siva")
+print(st)
+
+
+#2.Write a Python program to create an intersection of sets
+a={"mango","apple","goa"}
+b={"mango","grape","apple"}
+d=a.intersection(b)
+print(d)
+
+
+a={1,25,37,5,6,9,10}
+b={25,6,9,1,23,45,67}
+c=a.intersection(b)
+print(c)
+
+
+#3.Write a Python program to create a union of sets
+a={1,2,3,4,}
+b={3,4,5,6,7}
+c=a.union(b)
+print(c)
+
+#4.Write a Python program to create set difference
+a ={10,20,40,60,70,80}
+b ={30,50,60,99,88,80}
+c=a.difference(b)
+d=b.difference(a)
+print(c)
+print(d)
+
+
+#5.Write a Python program to create a symmetric difference.
+a ={10,20,40,60,70,80}
+b ={30,20,60,70,88,80}
+c=a.symmetric_difference(b)
+print(c)
+
+#6.Write a Python program to find the maximum and minimum values in a set
+a={10,20,30,40,50,60,70,80}
+print(min(a))
+print(max(a))

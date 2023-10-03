@@ -1,0 +1,9 @@
+#Write a Python program to convert a tuple to a string.
+#Ex:tup = ('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')
+tup=("s","i","v","a","n","a","g","a","r","a","j","u")
+str="".join(tup)
+print(str)
+
+tup = ('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')
+str="".join(tup)
+print(str)

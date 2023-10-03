@@ -1,0 +1,13 @@
+#Write a Python program to unpack a tuple into several variables.
+s=(20,30,40)
+x,y,z=s
+print("x:",x)
+print("y:",y)
+print("z:",z)
+
+
+tup =("siva","naga","raju")
+firstname,middlename,lastname=tup
+print("firstname:",firstname)
+print("middlename:",middlename)
+print("lastname:",lastname)
