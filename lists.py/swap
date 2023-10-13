@@ -1,0 +1,60 @@
+list1=['raju','naga','siva','ram','charan']
+#swap element at  index 0 and -1
+list1[0],list1[-1] = list1[-1],list1[0]
+print(list1)
+
+
+my_list = ["apple", "banana", "cherry", "date"]
+
+index1 = 3
+index2 = -1
+
+if len(my_list) > index1 and len(my_list) > index2:
+    if len(my_list[index1]) <= len(my_list[index2]):
+        my_list[index1], my_list[index2] = my_list[index2], my_list[index1]
+    else:
+        print("No swap performed because the condition was not met.")
+
+print(my_list)
+
+
+
+#list2=[1,2,3,34,4,5,6,]
+#list2[5],list2[2]=list2[2],list2[5]
+#print(list2)
+
+
+my_list = [5, 2, 8, 1, 9]
+
+index1 = 0
+index2 = 2
+
+if len(my_list) < index1 and len(my_list) < index2:
+    if my_list[index1] >= my_list[index2]:
+        my_list[index1], my_list[index2] = my_list[index2], my_list[index1]
+    else:
+        print("No swap performed because the condition was not met.")
+
+print(my_list)
+
+
+
+list2 = [1,2,3,34,4,5,6,]
+index1=0
+index2=4
+if len(list2) >index1 and len(list2) > index2:
+    if (list2[index1]) > (list2[index2]):
+        list2[index1],list2[index2] = list2[index2],list2[index1]
+        print(list2)
+    
+
+
+newlist = [1,1,2,3,3,4,5,5,6,66,]
+print(swaplist(newlist))
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+
+#with the use of built-in function
+Tuple1 = tuple("sivanagaraju")
+print(Tuple1)
+
+#NEXTED TUPLES
+Tuple = (1,2,3,4,5,)
+Tuple2 =("siva","naga","raju")
+tuple3 =(Tuple,Tuple2)
+print(tuple3)

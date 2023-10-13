@@ -1,6 +1,6 @@
 # Palindrome or not
-a= "siva"
-b=""
+a= "MADAM"
+b="MADAM"
 for i  in a:
     b = i + b
 if(a == b):

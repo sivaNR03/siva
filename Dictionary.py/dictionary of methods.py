@@ -6,7 +6,7 @@ str.update({"naga"})
 print(str)
 
 # len,clear,
-str =["s","i","v","a","n","a","g","a","r","a","j","u"]
+str ={"s","i","v","a","n","a","g","a","r","a","j","u"}
 print(len(str))
 str.clear()
 print(str)
@@ -17,8 +17,10 @@ print(str.get('place'))
 print(str.keys())
 print(str.values())
 print(str.items())
+
 str.pop('place')
 print(str)
+
 
 #sample example get
 a=input()
