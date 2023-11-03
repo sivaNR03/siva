@@ -45,12 +45,8 @@ index2=4
 if len(list2) >index1 and len(list2) > index2:
     if (list2[index1]) > (list2[index2]):
         list2[index1],list2[index2] = list2[index2],list2[index1]
-        print(list2)
-    
+    print(list2)
 
-
-newlist = [1,1,2,3,3,4,5,5,6,66,]
-print(swaplist(newlist))
 
 
 
