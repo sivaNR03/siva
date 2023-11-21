@@ -16,3 +16,4 @@ for s in str.split():
     str1  += s+' '
 print(str1)
   
+
